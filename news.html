@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New World News</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            padding: 0; 
+            background-color: #f0f0f0; 
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        .menu-item {
+            background-color: #ffd700;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .menu-item:hover {
+            background-color: #000;
+            color: #ffd700;
+            transform: scale(1.05);
+        }
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1em;
+            padding: 1em;
+        }
+        .news-item {
+            background-color: #fff;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            width: 100%;
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .highlight {
+            background-color: #ffeeba;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .important {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .death-toll {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #d9534f;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="newworldnews.png" alt="New World News Logo">
+        <a href="dlive.html" class="menu-item">dLive Schedule</a>
+    </header>
+    <main>
+        <section class="news-grid">
+            <!-- Online Harms Act -->
+            <div class="news-item">
+                <a href="https://www.parl.ca/DocumentViewer/en/44-1/bill/C-63/first-reading"><h2>Online Harms Act</h2></a>
+                <p><strong>Recent Developments:</strong></p>
+                <ul>
+                    <li>July 30, 2024: The Senate passed bills aimed at protecting children online with significant bipartisan support.</li>[](https://broadbandbreakfast.com/senate-passes-bills-aimed-at-protecting-children-online/)
+                    <li>Key aspects include duty of care for preventing harm to minors.</li>[](https://www.congress.gov/bill/118th-congress/senate-bill/1409/text)
+                </ul>
+                <p><strong>Key Provisions:</strong></p>
+                <ul>
+                    <li>Requires social media platforms to implement stricter content moderation policies.</li>
+                    <li>Enables reporting mechanisms for harm by parents, minors, and schools.</li>[](https://www.cnn.com/2024/07/30/politics/senate-passes-legislation-protecting-minors-online/index.html)[](https://www.nytimes.com/2024/07/30/us/politics/senate-child-online-safety-bill-house.html)[](https://abcnews.go.com/Politics/senate-poised-pass-package-bills-aimed-protecting-kids/story?id=112388921)
+                </ul>
+            </div>
+
+            <!-- Yemen-Israel Conflict -->
+            <div class="news-item">
+                <h2>Yemen-Israel Conflict</h2>
+                <p><strong>Recent Developments:</strong></p>
+                <ul>
+                    <li>December 26, 2024: Airstrikes on Sanaa International Airport and other targets in Yemen, killing at least three people. WHO Director-General was present, and a UN plane crew member was injured.</li>
+                    <li>December 27, 2024: Houthi rebels reported missile and drone attacks targeting Israel. Israel intercepted a missile from Yemen.</li>
+                </ul>
+                <p><strong>International Reactions:</strong></p>
+                <ul>
+                    <li>Netanyahu claimed progress in ceasefire talks but no timeline established. Posts found on X.</li>
+                </ul>
+            </div>
+
+            <!-- Gaza Crisis -->
+            <div class="news-item">
+                <h2>Gaza Crisis</h2>
+                <p class="death-toll">Total Death Toll: 45,361, mostly civilians.</p>
+                <p>Recent Developments:</p>
+                <ul>
+                    <li>Hamas reported Israel's "new conditions" are delaying ceasefire agreement. Posts found on X.</li>
+                    <li>Netanyahu states Israel won't allow Hamas to rule Gaza. Posts found on X.</li>
+                </ul>
+            </div>
+
+            <!-- Syrian President Assad Ousted -->
+            <div class="news-item">
+                <h2>Information on Syrian President Assad</h2>
+                <p>No recent events confirming the ousting of President Assad on December 15, 2024. Previous information appears to be incorrect or speculative.</p>
+            </div>
+
+            <!-- ICC Issues Arrest Warrants for Netanyahu -->
+            <div class="news-item">
+                <h2>No Update on ICC Arrest Warrants for Netanyahu</h2>
+                <p>There has been no confirmation of ICC issuing arrest warrants for Netanyahu on November 21, 2024. This news item seems to be misinformation.</p>
+            </div>
+
+            <!-- Jay-Z Named in Lawsuit -->
+            <div class="news-item">
+                <h2>Jay-Z Named in Lawsuit Alongside Sean 'Diddy' Combs</h2>
+                <p>No updates available on this lawsuit as of December 29, 2024.</p>
+            </div>
+
+            <!-- U.S. Senate Judiciary Committee -->
+            <div class="news-item">
+                <h2>12/10/2024: U.S. Senate Judiciary Committee Debate</h2>
+                <p>No specific updates or outcomes reported on mass deportations from the Senate Judiciary Committee debate on December 10, 2024.</p>
+            </div>
+
+            <!-- Israel Invades Southern Lebanon -->
+            <div class="news-item">
+                <h2>Israel Invades Southern Lebanon</h2>
+                <p>No confirmed reports of an invasion of Southern Lebanon by Israel on October 1, 2024. Earlier information seems to be inaccurate.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Immortal Al. You can't handle the truth.</p>
+    </footer>
+</body>
+</html>
